@@ -1,15 +1,71 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(65, 65, 65);
 
-}
 .logo{
     width: 45px;
 }
-.carousel-galeria img{
-    width: ;
+
+.titulo h1, h3{
+	margin-top: 15px;
+	color: #ddd;
+}
+.blanco{
+	
+	color: #ddd;
+}
+/* swiper */
+body {
+    background: #262626;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-container {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 270px;
     
+    background: #fff;
+  }
+  .swiper-slide .imgBx{
+    width: 100%;
+    overflow: hidden;
+  }
+  .swiper-slide .imgBx img{
+    width: 100%;
+
+  }
+  .swiper-slide .details{
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  .swiper-slide .details h3{
+    margin: 9px;
+    padding: 0;  
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+  
+  }
+  .swiper-slide .details h3 span{
+    font-size: 16px;
+    color:#f44336;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+  }
+/* fin de swiper */
+
+.list-genero{
+	margin-top: 15px;
+	
 }
 
 
